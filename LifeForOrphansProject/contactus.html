@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Life for Orphans</h1>
+        <h3>Empowering Orphans, Enriching Futures</h3>
+        <img id="logo" alt="Logo of Life for Orphans" src="logo.png">
+
+        <a href="#mainContent">Jump to Main Area</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="donate.html">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="mainContent">
+        <section>
+            <h1>Contact Us</h1>
+            <p>If you have any questions, feedback, or inquiries, please don't hesitate to contact us using the information below:</p>
+        </section>
+
+        <section>
+            <h2>Address</h2>
+            <p>456 Oak Avenue<br>London, NW1 6JR<br>United Kingdom</p>
+        </section>
+
+        <section>
+            <h2>Email</h2>
+            <p><a href="mailto:info@lifefororphans.org">info@lifefororphans.org</a></p>
+        </section>
+
+        <section>
+            <h2>Phone</h2>
+            <p>+44 (123) 456-7890</p>
+        </section>
+
+        <section>
+            <h2>Social Media</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/lifefororphans">Facebook</a></li>
+                <li><a href="https://twitter.com/lifefororphans">Twitter</a></li>
+                <li><a href="https://www.instagram.com/lifefororphans">Instagram</a></li>
+            </ul>
+        </section>
+
+        <section id="contactForm">
+            <h2>Contact Form</h2>
+            <form action="#" method="post" id="formForContact">
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="acknowledge" name="acknowledge" required>
+                    <label for="acknowledge">I acknowledge that I am sharing my information in order to contact Life for Orphans.</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+        
+    <footer>
+        <p>&copy; <span id="currentYear">  </span> Life for Orphans. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
